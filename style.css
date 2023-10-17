@@ -1,0 +1,59 @@
+:root{
+--White: hsl(0, 0%, 100%)
+--Lightgray: hsl(212, 45%, 89%)
+--Grayishblue: hsl(220, 15%, 55%)
+--Darkblue: hsl(218, 44%, 22%)
+}
+
+/* Start General Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* End General Style */
+
+/* Start Body Style */
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color:Lightgray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End Body Style */
+
+/* Start Container Style */
+.container{
+    width: 100%;
+}
+.container .box{
+    background-color:White;
+    padding: 25px;
+    margin: 0 10px;
+    border-radius: 25px;
+}
+.container .box img{
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.container .box h2 {
+    color:  hsl(218, 44%, 22%);
+    line-height: 30px;
+    margin-bottom: 15px ;
+}
+.container .box p{
+color: hsl(220, 15%, 55%);
+font-size: 15px;
+font-weight: bold;
+line-height: 25px;
+}
+/* End Container Style */
+@media (min-width:1000px){
+    .container{
+        width: 33%;
+    }
+    
+}
