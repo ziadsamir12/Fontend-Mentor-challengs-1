@@ -1,8 +1,8 @@
 :root{
---White: hsl(0, 0%, 100%)
---Lightgray: hsl(212, 45%, 89%)
---Grayishblue: hsl(220, 15%, 55%)
---Darkblue: hsl(218, 44%, 22%)
+--White:hsl(0, 0%, 100%)
+--Lightgray:hsl(212, 45%, 89%)
+--Grayishblue:hsl(220, 15%, 55%)
+--Darkblue:hsl(218, 44%, 22%)
 }
 
 /* Start General Style */
@@ -17,7 +17,7 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background-color:Lightgray;
+    background-color: hsl(191, 34%, 87%);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -34,10 +34,12 @@ body{
     padding: 25px;
     margin: 0 10px;
     border-radius: 25px;
+    font-family: 'Outfit', sans-serif;
 }
 .container .box img{
     margin-bottom: 15px;
     border-radius: 10px;
+    width: 300px;
 }
 .container .box h2 {
     color:  hsl(218, 44%, 22%);
